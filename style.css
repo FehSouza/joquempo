@@ -1,0 +1,193 @@
+body {
+  background-color: #82cdff;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
+}
+
+.placar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ganhador {
+  width: 430px;
+  height: 74px;
+  background-color: #0099ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.ganhador-txt {
+  font-size: 33px;
+  font-weight: 600;
+}
+
+.placar {
+  width: 950px;
+  height: 148px;
+  background-color: #0099ff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 17px;
+}
+
+.jogador1-txt,
+.jogador2-txt {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.placar-centro {
+  width: 430px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jogador1-placar,
+.jogador2-placar {
+  width: 131px;
+  height: 120px;
+  background-color: #ffffff;
+  border-radius: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jogador1-placar-txt,
+.jogador2-placar-txt {
+  font-size: 104px;
+  font-weight: 900;
+  color: #0099ff;
+}
+
+.versus {
+  font-size: 58px;
+  font-weight: 900;
+}
+
+.jogo-wrapper {
+  display: flex;
+  width: 1793px;
+  justify-content: space-between;
+}
+
+.botoes-jogador1,
+.botoes-jogador2 {
+  display: flex;
+  flex-direction: column;
+  height: 414px;
+  justify-content: space-between;
+}
+
+.botao-pedra-jogador1,
+.botao-papel-jogador1,
+.botao-tesoura-jogador1,
+.botao-pedra-jogador2,
+.botao-papel-jogador2,
+.botao-tesoura-jogador2 {
+  width: 220px;
+  height: 80px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #0099ff;
+  border-radius: 8px;
+  border: 0px;
+}
+
+.botao-pedra-jogador1:hover,
+.botao-papel-jogador1:hover,
+.botao-tesoura-jogador1:hover,
+.botao-pedra-jogador2:hover,
+.botao-papel-jogador2:hover,
+.botao-tesoura-jogador2:hover {
+  cursor: pointer;
+  background-color: #0099ffb3;
+  transition: 400ms;
+}
+
+.botao-pedra-jogador1:disabled,
+.botao-papel-jogador1:disabled,
+.botao-tesoura-jogador1:disabled,
+.botao-pedra-jogador2:disabled,
+.botao-papel-jogador2:disabled,
+.botao-tesoura-jogador2:disabled {
+  cursor: not-allowed;
+  background-color: #979797b3;
+  transition: 400ms;
+}
+
+.area-jogo {
+  width: 1313px;
+  height: 414px;
+  background-color: #0099ff;
+  border-radius: 17px;
+  display: flex;
+  padding: 34.5px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jogo-jogador1,
+.jogo-jogador2 {
+  width: 464px;
+  height: 345px;
+  background-color: #ffffff;
+  border-radius: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.versus-jogo {
+  font-size: 104px;
+  font-weight: 900;
+}
+
+.botoes-wrapper {
+  width: 576px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.botao-iniciar,
+.botao-resetar {
+  width: 238px;
+  height: 69px;
+  background-color: #0099ff;
+  border-radius: 6px;
+  border: 0px;
+  padding: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 33px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.botao-iniciar:hover,
+.botao-resetar:hover {
+  cursor: pointer;
+  background-color: #0099ffb3;
+  transition: 400ms;
+}
+
+.botao-iniciar:disabled,
+.botao-resetar:disabled {
+  cursor: not-allowed;
+  background-color: #979797b3;
+  transition: 400ms;
+}

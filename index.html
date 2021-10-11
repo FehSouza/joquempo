@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joquempô</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="placar-wrapper">
+      <div class="ganhador">
+        <span class="ganhador-txt">Aguardando iniciar!</span>
+      </div>
+
+      <div class="placar">
+        <span class="jogador1-txt">Jogador 1</span>
+
+        <div class="placar-centro">
+          <div class="jogador1-placar">
+            <span class="jogador1-placar-txt">0</span>
+          </div>
+          <span class="versus">VS</span>
+          <div class="jogador2-placar">
+            <span class="jogador2-placar-txt">0</span>
+          </div>
+        </div>
+
+        <span class="jogador1-txt">Jogador 2</span>
+      </div>
+    </section>
+
+    <section class="jogo-wrapper">
+      <div class="botoes-jogador1">
+        <button class="botao-pedra-jogador1">Pedra</button>
+        <button class="botao-papel-jogador1">Papel</button>
+        <button class="botao-tesoura-jogador1">Tesoura</button>
+      </div>
+      <div class="area-jogo">
+        <div class="jogo-jogador1"></div>
+        <span class="versus-jogo">VS</span>
+        <div class="jogo-jogador2"></div>
+      </div>
+      <div class="botoes-jogador2">
+        <button class="botao-pedra-jogador2">Pedra</button>
+        <button class="botao-papel-jogador2">Papel</button>
+        <button class="botao-tesoura-jogador2">Tesoura</button>
+      </div>
+    </section>
+
+    <section class="botoes-wrapper">
+      <button class="botao-iniciar">Iniciar</button>
+      <button class="botao-resetar" disabled>Resetar</button>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
